@@ -1,11 +1,15 @@
-name = "cloudflare-worker-dns"
+name = "cloudflare-worker-dns-worker"
 type = "javascript"
 
 kv_namespaces = [
-  { binding = "USER_DATA", id = "your-kv-id" }
+  { binding = "USER_DATA", id = "a38714d41302415eae6eb6f6435bd63c" }
 ]
 
 [vars]
-ADMIN_USERNAME = "admin"
-ADMIN_PASSWORD = "securepassword"
-CLOUDFLARE_API_TOKEN = "your-cloudflare-api-token"
+ADMIN_USERNAME = "wzj"
+ADMIN_PASSWORD = "123258qW@"
+CLOUDFLARE_API_TOKEN = "-NhwDBvtuDYzntQcL84zRWmcuxtJ9QfrNzb-qQRd"
+JWT_SECRET = "DJO79XQb8KxOprjkPDrC4EssS7D0yHRZrbf9TRPXicllwtLd0e87FGLbza5vXlEU"
+
+compatibility_date = "2025-08-21"
+main = "src/index.js"
