@@ -1,0 +1,11 @@
+name = "cloudflare-worker-dns"
+type = "javascript"
+
+kv_namespaces = [
+  { binding = "USER_DATA", id = "your-kv-id" }
+]
+
+[vars]
+ADMIN_USERNAME = "admin"
+ADMIN_PASSWORD = "securepassword"
+CLOUDFLARE_API_TOKEN = "your-cloudflare-api-token"
