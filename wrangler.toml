@@ -1,4 +1,4 @@
-name = "cloudflare-worker-dns-rtiogjeh"
+name = "dns"
 type = "javascript"
 
 kv_namespaces = [
