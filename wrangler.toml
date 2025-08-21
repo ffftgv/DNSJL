@@ -1,5 +1,4 @@
 name = "dns"
-type = "javascript"
 
 kv_namespaces = [
   { binding = "USER_DATA", id = "a38714d41302415eae6eb6f6435bd63c" }
@@ -13,3 +12,4 @@ JWT_SECRET = "DJO79XQb8KxOprjkPDrC4EssS7D0yHRZrbf9TRPXicllwtLd0e87FGLbza5vXlEU"
 
 compatibility_date = "2025-08-21"
 main = "src/index.js"
+
